@@ -37,6 +37,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -97,10 +98,28 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "adams-puppies:build:production",
+              "serveTarget": "adams-puppies:serve:production"
+            },
+            "development": {
+              "buildTarget": "adams-puppies:build:development",
+              "serveTarget": "adams-puppies:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

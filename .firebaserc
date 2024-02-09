@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "adams-puppies": {
+      "hosting": {
+        "adams-puppies": [
+          "adams-puppies"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "adams-puppies"
+  }
+}

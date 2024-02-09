@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  .left {
+    width: 50%;
+    .title_container {
+      margin-top: 200px;
+      display: flex;
+      flex-direction: column;
+      height: 40%;
+      .name {
+        font-size: 16em;
+        margin-bottom: 8rem;
+      }
+      .title {
+        font-size: 8em;
+      }
+    }
+    .contents {
+      .story {
+        font-size: 1.4em;
+      }
+      .training_title {
+        font-size: 1.6em;
+        font-weight: 700;
+        margin-top: 2rem;
+        margin-bottom: 0.4rem;
+      }
+      .training {
+        font-size: 1.2em;
+      }
+    }
+  }
+  .right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4rem;
+    .contents {
+      display: flex;
+      flex-direction: column;
+      .top {
+        display: flex;
+        justify-content: center;
+        //border: 1px solid black;
+        .img {
+          margin-top: 50px;
+          transform: rotate(5deg);
+          //margin-right: 4rem;
+          height: 600px;
+          width: auto;
+        }
+      }
+      .bottom {
+        display: flex;
+        justify-content: center;
+        //border: 1px solid black;
+        .btn {
+          width: 200px;
+          height: 56px;
+          background-color: black;
+          color: white;
+          margin-top: 3rem;
+          font-size: 1.2em;
+          // border-radius: 30%;
+        }
+      }
+    }
+  }
+}
