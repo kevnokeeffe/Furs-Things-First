@@ -1,18 +1,63 @@
-<mat-toolbar [ngStyle]="{ 'background-color': '#75ccaf' }">
-  <div class="btn_container">
-    <button
-      mat-button
-      class="btn"
-      aria-label="Example icon-button with menu icon"
-    >
-      ABOUT
-    </button>
-    <button
-      mat-button
-      class="btn"
-      aria-label="Example icon-button with menu icon"
-    >
-      HIRE ME
-    </button>
-  </div>
+<mat-toolbar
+  [ngStyle]="{
+    backgroundColor: 'white',
+    boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px',
+    position: 'fixed',
+    zIndex: '1000',
+  }"
+>
+  <button
+    [matMenuTriggerFor]="menu"
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span
+    [ngStyle]="{
+      fontFamily: 'Caveat , cursive',
+      fontSize: '1.4em',
+      fontWeight: '700',
+      marginLeft: '1rem',
+      marginRight: '1rem'
+    }"
+    >Fur things first</span
+  >
+  <mat-icon>pets</mat-icon>
+  <span class="example-spacer"></span>
+  <a
+    href="https://www.facebook.com/furthings.first"
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <fa-icon [icon]="faFacebook"></fa-icon>
+  </a>
+  <a
+    href="https://www.instagram.com/furs_things_first/"
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <fa-icon [icon]="faInstagram"></fa-icon>
+  </a>
 </mat-toolbar>
+
+<mat-menu #menu="matMenu">
+  <button mat-menu-item routerLink="/home">
+    <mat-icon class="material-icons-outlined">home</mat-icon>
+    <span>Home</span>
+  </button>
+  <button mat-menu-item routerLink="/about">
+    <mat-icon class="material-icons-outlined">info</mat-icon>
+    <span>About us</span>
+  </button>
+  <a
+    mat-menu-item
+    href="mailto:email@example.com?subject=Mail from our Website"
+  >
+    <mat-icon>alternate_email</mat-icon>
+    <span>Contact</span>
+  </a>
+</mat-menu>

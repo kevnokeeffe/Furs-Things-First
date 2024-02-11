@@ -5,10 +5,11 @@ import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { HomeModule } from './home/home.module';
 import { LayoutModule } from './layout/layout.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, HomeModule, LayoutModule, AppRoutingModule],
+  imports: [BrowserModule, HomeModule, LayoutModule, AppRoutingModule, FontAwesomeModule],
   providers: [provideAnimationsAsync()],
   bootstrap: [AppComponent],
 })

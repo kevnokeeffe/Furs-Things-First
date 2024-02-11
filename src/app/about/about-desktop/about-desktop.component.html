@@ -1,0 +1,124 @@
+<div class="container">
+  <img
+    [ngStyle]="{ marginTop: '.1rem' }"
+    src="https://images.pexels.com/photos/2495563/pexels-photo-2495563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  />
+  <div
+    [ngStyle]="{
+      marginTop: '-4rem',
+      width: '100%',
+      textAlign: 'center',
+      display: 'flex',
+      flexDirection: 'column'
+    }"
+  >
+    <span
+      [ngStyle]="{
+        fontSize: '6em',
+        color: 'white',
+
+        fontWeight: '700'
+      }"
+      >ABOUT US</span
+    >
+  </div>
+  <div [ngStyle]="{ marginTop: '10rem' }">
+    <div
+      [ngStyle]="{
+        fontSize: '1.4rem',
+        fontWeight: '600',
+        marginBottom: '1rem',
+        fontFamily: 'Montserrat, sans-serif'
+      }"
+    >
+      Hi, I'm Adam
+    </div>
+    <span [ngStyle]="{ fontSize: '1.4em', fontWeight: '400' }">
+      A certified dog trainer. I offer positive reinforcement training for dogs
+      of all ages and levels, from puppy classes to agility courses. I also
+      coach you, the owner, on how to communicate and bond with your dog.
+      Contact me for a free consultation and let's start your training journey
+      together!</span
+    >
+  </div>
+  <mat-divider [ngStyle]="{ marginTop: '7rem' }"></mat-divider>
+  <div [ngStyle]="{ marginTop: '7rem' }">
+    <div
+      [ngStyle]="{
+        fontSize: '1.4rem',
+        fontWeight: '600',
+        marginBottom: '1rem',
+        fontFamily: 'Montserrat, sans-serif'
+      }"
+    >
+      Vision
+    </div>
+  </div>
+  <div [ngStyle]="{ display: 'flex' }">
+    <img
+      [ngStyle]="{ width: '40%' }"
+      src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    />
+    <div
+      [ngStyle]="{
+        width: '60%',
+        marginLeft: '2rem',
+        display: 'flex',
+        flexDirection: 'column'
+      }"
+    >
+      <span
+        [ngStyle]="{
+        fontSize: '1.4em',
+        fontWeight: '400',
+      }"
+      >
+        Furs Things First dog trainings vision is to create a world where every
+        dog is trained and treated with respect, resulting in happy, healthy,
+        and well-behaved pets living in harmony with their human families. We
+        envision a community where dog training is a standard practice, and
+        where owners are equipped with the knowledge and skills to create
+        positive relationships with their dogs.</span
+      >
+      <span
+        [ngStyle]="{
+          fontSize: '1.4em',
+          fontWeight: '400',
+          marginTop: '2rem'
+        }"
+      >
+        Our vision sees a future where dog behavior problems are minimized and
+        prevented, and where every dog has the opportunity to reach its full
+        potential as a beloved companion.</span
+      >
+    </div>
+  </div>
+  <mat-divider [ngStyle]="{ marginTop: '7rem' }"></mat-divider>
+  <div [ngStyle]="{ marginTop: '7rem', width: '100%', textAlign: 'center' }">
+    <span [ngStyle]="{ fontSize: '1.2em', fontWeight: '500' }"
+      >COPYRIGHT © 2024 FURS THINGS FIRST DOG TRAINING - ALL RIGHTS
+      RESERVED</span
+    >
+  </div>
+  <div
+    [ngStyle]="{
+      marginTop: '2rem',
+      marginBottom: '4rem',
+      display: 'flex',
+      justifyContent: 'center'
+    }"
+  >
+    <button
+      mat-flat-button
+      [ngStyle]="{ fontSize: '1.4em', fontWeight: '500' }"
+    >
+      About us</button
+    ><a
+      href="mailto:email@example.com?subject=Mail from our Website"
+      mat-flat-button
+      [ngStyle]="{ fontSize: '1.4em', fontWeight: '500' }"
+    >
+      Contact
+    </a>
+  </div>
+</div>

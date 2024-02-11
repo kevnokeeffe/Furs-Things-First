@@ -3,14 +3,12 @@ import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { GetInTouchDialogComponent } from '../../layout/dialogs/get-in-touch-dialog/get-in-touch-dialog.component';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss',
+  selector: 'app-home-desktop',
+  templateUrl: './home-desktop.component.html',
+  styleUrl: './home-desktop.component.scss',
 })
-export class HomeComponent {
+export class HomeDesktopComponent {
   constructor(private _bottomSheet: MatBottomSheet) {}
-  title: string = 'Adams Puppies';
-
   openBottomSheet(): void {
     this._bottomSheet.open(GetInTouchDialogComponent, {
       data: { title: 'Get in touch' },

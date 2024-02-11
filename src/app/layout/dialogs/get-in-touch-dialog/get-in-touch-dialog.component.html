@@ -1,11 +1,40 @@
 <div [ngStyle]="{ padding: '2rem' }">
   <div
     [ngStyle]="{
-      'text-align': 'center',
-      'font-size': '2em',
-      'font-weight': '500'
+      textAlign: 'center',
+      fontSize: '2em',
+      fontWeight: '500',
+      marginBottom: '2rem'
     }"
   >
-    Get in touch
+    {{ data.title }}
+  </div>
+  <div>
+    <form>
+      <p>
+        <mat-form-field appearance="outline" [ngStyle]="{ width: '100%' }">
+          <mat-label>Outline form field</mat-label>
+          <input matInput placeholder="Placeholder" />
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="outline" [ngStyle]="{ width: '100%' }">
+          <mat-label>Outline form field</mat-label>
+          <input matInput placeholder="Placeholder" />
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="outline" [ngStyle]="{ width: '100%' }">
+          <mat-label>Outline form field</mat-label>
+          <input matInput placeholder="Placeholder" />
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="outline" [ngStyle]="{ width: '100%' }">
+          <mat-label>Outline form field</mat-label>
+          <input matInput placeholder="Placeholder" />
+        </mat-form-field>
+      </p>
+    </form>
   </div>
 </div>

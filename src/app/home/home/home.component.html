@@ -1,32 +1,4 @@
-<div class="container">
-  <div class="left">
-    <div class="title_container">
-      <div class="name">Addam's</div>
-      <div class="title">Puppies</div>
-    </div>
-    <div class="contents">
-      <div class="story">
-        Hi, I'm Adam, a certified dog trainer. I offer positive reinforcement
-        training for dogs of all ages and levels, from puppy classes to agility
-        courses. I also coach you, the owner, on how to communicate and bond
-        with your dog. Contact me for a free consultation and let's start your
-        training journey together!
-      </div>
-    </div>
-  </div>
-  <div class="right">
-    <div class="contents">
-      <div class="top">
-        <img
-          class="img"
-          src="https://images.pexels.com/photos/159557/leisure-wildlife-photography-pet-photography-dog-159557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        />
-      </div>
-      <div class="bottom">
-        <button class="btn" mat-raised-button (click)="openBottomSheet()">
-          Get in touch
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
+<ng-container>
+  <div class="desktop"><app-home-desktop></app-home-desktop></div>
+  <div class="mobile"><app-home-mobile></app-home-mobile></div>
+</ng-container>
