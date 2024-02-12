@@ -17,8 +17,8 @@
   <img
     [ngStyle]="{
       borderRadius: '50%',
-      width: '40px',
-      height: '40px',
+      width: '35px',
+      height: '35px',
     }"
     src="https://scontent.fdub4-2.fna.fbcdn.net/v/t39.30808-6/424949147_122098394624207304_2993377099035223100_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=KEgXElOBubMAX8s6aV3&_nc_ht=scontent.fdub4-2.fna&oh=00_AfCFFQ7RIopJpIiyNEJbcVyyiqTTOAzy_Wqmjewjsxrl6Q&oe=65CF76D2"
   />
@@ -54,14 +54,14 @@
 
 <mat-menu #menu="matMenu">
   <button mat-menu-item routerLink="/home">
-    <mat-icon [ngStyle]="{ color: '#6DA4AA' }" class="material-icons-outlined"
-      >home</mat-icon
+    <mat-icon [ngStyle]="{ color: '#6DA4AA' }" class="material-symbols-outlined"
+      >home_app_logo</mat-icon
     >
     <span [ngStyle]="{ color: '#3D3B40' }">Home</span>
   </button>
   <button mat-menu-item routerLink="/about">
-    <mat-icon [ngStyle]="{ color: '#6DA4AA' }" class="material-icons-outlined"
-      >info</mat-icon
+    <mat-icon [ngStyle]="{ color: '#6DA4AA' }" class="material-symbols-outlined"
+      >info_i</mat-icon
     >
     <span [ngStyle]="{ color: '#3D3B40' }">About us</span>
   </button>
@@ -69,7 +69,9 @@
     mat-menu-item
     href="mailto:email@example.com?subject=Mail from our Website"
   >
-    <mat-icon [ngStyle]="{ color: '#6DA4AA' }">alternate_email</mat-icon>
+    <mat-icon [ngStyle]="{ color: '#6DA4AA' }" class="material-symbols-outlined"
+      >mail</mat-icon
+    >
     <span [ngStyle]="{ color: '#3D3B40' }">Contact</span>
   </a>
 </mat-menu>
