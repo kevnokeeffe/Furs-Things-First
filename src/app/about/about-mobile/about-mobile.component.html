@@ -1,11 +1,11 @@
 <div class="container">
   <img
     [ngStyle]="{ marginTop: '4rem' }"
-    src="https://images.pexels.com/photos/2495563/pexels-photo-2495563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    src="https://images.pexels.com/photos/9354913/pexels-photo-9354913.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   />
   <div
     [ngStyle]="{
-      marginTop: '-2.4rem',
+      marginTop: '-35%',
       width: '100%',
       textAlign: 'center',
       display: 'flex',
@@ -22,18 +22,21 @@
       >ABOUT US</span
     >
   </div>
-  <div [ngStyle]="{ marginTop: '3rem' }">
+  <div [ngStyle]="{ marginTop: '36%' }">
     <div
       [ngStyle]="{
         fontSize: '1.2rem',
         fontWeight: '600',
         marginBottom: '.6rem',
-        fontFamily: 'Montserrat, sans-serif'
+        fontFamily: 'Montserrat, sans-serif',
+        textAlign: 'center'
       }"
     >
       Hi, I'm Adam
     </div>
-    <span [ngStyle]="{ fontSize: '1.2em', fontWeight: '400' }">
+    <span
+      [ngStyle]="{ fontSize: '1.2em', fontWeight: '400', textAlign: 'center' }"
+    >
       A certified dog trainer. I offer positive reinforcement training for dogs
       of all ages and levels, from puppy classes to agility courses. I also
       coach you, the owner, on how to communicate and bond with your dog.
@@ -47,6 +50,7 @@
         fontSize: '1.2rem',
         fontWeight: '600',
         marginBottom: '1rem',
+        textAlign: 'center',
         fontFamily: 'Montserrat, sans-serif'
       }"
     >
@@ -78,11 +82,22 @@
         where owners are equipped with the knowledge and skills to create
         positive relationships with their dogs.</span
       >
+    </div>
+    <img
+      [ngStyle]="{ width: '100%', height: 'auto', marginTop: '1rem' }"
+      src="https://images.pexels.com/photos/686094/pexels-photo-686094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    />
+    <div
+      [ngStyle]="{
+        display: 'flex',
+        flexDirection: 'column',
+        marginTop: '1rem'
+      }"
+    >
       <span
         [ngStyle]="{
           fontSize: '1.2em',
           fontWeight: '400',
-          marginTop: '1rem'
         }"
       >
         Our vision sees a future where dog behavior problems are minimized and

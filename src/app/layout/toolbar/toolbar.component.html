@@ -19,12 +19,12 @@
       fontFamily: 'Caveat , cursive',
       fontSize: '1.4em',
       fontWeight: '700',
-      marginLeft: '1rem',
+      marginLeft: '.4rem',
       marginRight: '1rem'
     }"
     >Furs things first</span
   >
-  <mat-icon>pets</mat-icon>
+  <!-- <mat-icon>pets</mat-icon> -->
   <span class="example-spacer"></span>
   <a
     href="https://www.facebook.com/furthings.first"
@@ -46,18 +46,22 @@
 
 <mat-menu #menu="matMenu">
   <button mat-menu-item routerLink="/home">
-    <mat-icon class="material-icons-outlined">home</mat-icon>
+    <mat-icon [ngStyle]="{ color: '#6DA4AA' }" class="material-icons-outlined"
+      >home</mat-icon
+    >
     <span>Home</span>
   </button>
   <button mat-menu-item routerLink="/about">
-    <mat-icon class="material-icons-outlined">info</mat-icon>
+    <mat-icon [ngStyle]="{ color: '#6DA4AA' }" class="material-icons-outlined"
+      >info</mat-icon
+    >
     <span>About us</span>
   </button>
   <a
     mat-menu-item
     href="mailto:email@example.com?subject=Mail from our Website"
   >
-    <mat-icon>alternate_email</mat-icon>
+    <mat-icon [ngStyle]="{ color: '#6DA4AA' }">alternate_email</mat-icon>
     <span>Contact</span>
   </a>
 </mat-menu>
