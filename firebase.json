@@ -1,7 +1,7 @@
 {
   "hosting": [
     {
-      "target": "adams-puppies",
+      "target": "furs-things-first",
       "source": ".",
       "frameworksBackend": {}
     }

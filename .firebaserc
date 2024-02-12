@@ -1,14 +1,14 @@
 {
   "targets": {
-    "adams-puppies": {
+    "furs-things-first": {
       "hosting": {
-        "adams-puppies": [
-          "adams-puppies"
+        "furs-things-first": [
+          "furs-things-first"
         ]
       }
     }
   },
   "projects": {
-    "default": "adams-puppies"
+    "default": "furs-things-first"
   }
 }
