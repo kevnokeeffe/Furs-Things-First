@@ -22,7 +22,7 @@
       marginLeft: '.4rem',
       marginRight: '1rem'
     }"
-    >Furs things first</span
+    >Furs Things First</span
   >
   <!-- <mat-icon>pets</mat-icon> -->
   <span class="example-spacer"></span>
@@ -32,15 +32,14 @@
     class="example-icon"
     aria-label="Example icon-button with menu icon"
   >
-    <fa-icon [icon]="faFacebook"></fa-icon>
+    <fa-icon [ngStyle]="{ color: '#3D3B40' }" [icon]="faFacebook"></fa-icon>
   </a>
   <a
     href="https://www.instagram.com/furs_things_first/"
     mat-icon-button
-    class="example-icon"
     aria-label="Example icon-button with menu icon"
   >
-    <fa-icon [icon]="faInstagram"></fa-icon>
+    <fa-icon [ngStyle]="{ color: '#3D3B40' }" [icon]="faInstagram"></fa-icon>
   </a>
 </mat-toolbar>
 
@@ -49,19 +48,19 @@
     <mat-icon [ngStyle]="{ color: '#6DA4AA' }" class="material-icons-outlined"
       >home</mat-icon
     >
-    <span>Home</span>
+    <span [ngStyle]="{ color: '#3D3B40' }">Home</span>
   </button>
   <button mat-menu-item routerLink="/about">
     <mat-icon [ngStyle]="{ color: '#6DA4AA' }" class="material-icons-outlined"
       >info</mat-icon
     >
-    <span>About us</span>
+    <span [ngStyle]="{ color: '#3D3B40' }">About us</span>
   </button>
   <a
     mat-menu-item
     href="mailto:email@example.com?subject=Mail from our Website"
   >
     <mat-icon [ngStyle]="{ color: '#6DA4AA' }">alternate_email</mat-icon>
-    <span>Contact</span>
+    <span [ngStyle]="{ color: '#3D3B40' }">Contact</span>
   </a>
 </mat-menu>

@@ -35,7 +35,12 @@
       Hi, I'm Adam
     </div>
     <span
-      [ngStyle]="{ fontSize: '1.2em', fontWeight: '400', textAlign: 'center' }"
+      [ngStyle]="{
+        fontSize: '1.2em',
+        fontWeight: '400',
+        textAlign: 'center',
+        color: '#3D3B40'
+      }"
     >
       A certified dog trainer. I offer positive reinforcement training for dogs
       of all ages and levels, from puppy classes to agility courses. I also
@@ -71,9 +76,10 @@
     >
       <span
         [ngStyle]="{
-        fontSize: '1.2em',
-        fontWeight: '400',
-      }"
+          fontSize: '1.2em',
+          fontWeight: '400',
+          color: '#3D3B40'
+        }"
       >
         Furs Things First dog trainings vision is to create a world where every
         dog is trained and treated with respect, resulting in happy, healthy,
@@ -98,6 +104,7 @@
         [ngStyle]="{
           fontSize: '1.2em',
           fontWeight: '400',
+          color: '#3D3B40'
         }"
       >
         Our vision sees a future where dog behavior problems are minimized and
@@ -108,7 +115,7 @@
   </div>
   <mat-divider [ngStyle]="{ marginTop: '3rem' }"></mat-divider>
   <div [ngStyle]="{ marginTop: '3rem', width: '100%', textAlign: 'center' }">
-    <span [ngStyle]="{ fontSize: '1.2em', fontWeight: '500' }"
+    <span [ngStyle]="{ fontSize: '1.2em', fontWeight: '500', color: '#3D3B40' }"
       >COPYRIGHT © 2024 FURS THINGS FIRST DOG TRAINING - ALL RIGHTS
       RESERVED</span
     >
@@ -123,14 +130,14 @@
   >
     <button
       mat-flat-button
-      [ngStyle]="{ fontSize: '1.4em', fontWeight: '500' }"
+      [ngStyle]="{ fontSize: '1.4em', fontWeight: '500', color: '#6DA4AA' }"
       routerLink="/about"
     >
       About us</button
     ><a
       href="mailto:email@example.com?subject=Mail from our Website"
       mat-flat-button
-      [ngStyle]="{ fontSize: '1.4em', fontWeight: '500' }"
+      [ngStyle]="{ fontSize: '1.4em', fontWeight: '500', color: '#6DA4AA' }"
     >
       Contact
     </a>

@@ -47,7 +47,7 @@
   >
     <a
       href="mailto:email@example.com?subject=Mail from our Website"
-      mat-raised-button
+      mat-flat-button
       [ngStyle]="{
         color: 'white',
         backgroundColor: '#6DA4AA',
@@ -137,7 +137,8 @@
             marginTop: '1rem',
             fontSize: '1.2em',
             fontWeight: '400',
-            padding: '0 1rem'
+            padding: '0 1rem',
+            color: '#3D3B40'
           }"
           >We teach young dogs to develop good behavior and manners, basic
           obedience skills, and proper socialization with other dogs and
@@ -164,7 +165,8 @@
             marginTop: '1rem',
             fontSize: '1.2em',
             fontWeight: '400',
-            padding: '0 1rem'
+            padding: '0 1rem',
+            color: '#3D3B40'
           }"
           >Focuses on teaching dogs how to protect their owner or handler on
           command, while still being able to distinguish between real threats
@@ -191,7 +193,8 @@
             marginTop: '1rem',
             fontSize: '1.2em',
             fontWeight: '400',
-            padding: '0 1rem'
+            padding: '0 1rem',
+            color: '#3D3B40'
           }"
           >We determine the underly issue, correct it and make your dog reliable
           in any situation.
@@ -248,7 +251,8 @@
             marginTop: '1rem',
             fontSize: '1.2em',
             fontWeight: '400',
-            padding: '0 1rem'
+            padding: '0 1rem',
+            color: '#3D3B40'
           }"
           >Individualized training for your dog's specific needs.</span
         >
@@ -273,7 +277,8 @@
             marginTop: '1rem',
             fontSize: '1.2em',
             fontWeight: '400',
-            padding: '0 1rem'
+            padding: '0 1rem',
+            color: '#3D3B40'
           }"
           >Structured training sessions where multiple dogs and their owners can
           learn basic obedience skills, socialize with other dogs, and receive
@@ -298,7 +303,7 @@
   >
     <a
       href="mailto:email@example.com?subject=Mail from our Website"
-      mat-raised-button
+      mat-flat-button
       [ngStyle]="{
         color: 'white',
         backgroundColor: '#6DA4AA',
@@ -313,7 +318,7 @@
   </div>
   <mat-divider [ngStyle]="{ marginTop: '7rem' }"></mat-divider>
   <div [ngStyle]="{ marginTop: '7rem', width: '100%', textAlign: 'center' }">
-    <span [ngStyle]="{ fontSize: '1.2em', fontWeight: '500' }"
+    <span [ngStyle]="{ fontSize: '1.2em', fontWeight: '500', color: '#3D3B40' }"
       >COPYRIGHT © 2024 FURS THINGS FIRST DOG TRAINING - ALL RIGHTS
       RESERVED</span
     >
@@ -328,14 +333,14 @@
   >
     <button
       mat-flat-button
-      [ngStyle]="{ fontSize: '1.4em', fontWeight: '500' }"
+      [ngStyle]="{ fontSize: '1.4em', fontWeight: '500', color: '#6DA4AA' }"
       routerLink="/about"
     >
       About us</button
     ><a
-      href="mailto:email@example.com?subject=Mail from our Website"
+      (click)="openBottomSheet()"
       mat-flat-button
-      [ngStyle]="{ fontSize: '1.4em', fontWeight: '500' }"
+      [ngStyle]="{ fontSize: '1.4em', fontWeight: '500', color: '#6DA4AA' }"
     >
       Contact
     </a>

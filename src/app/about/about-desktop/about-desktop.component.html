@@ -33,7 +33,9 @@
     >
       Hi, I'm Adam
     </div>
-    <span [ngStyle]="{ fontSize: '1.4em', fontWeight: '400' }">
+    <span
+      [ngStyle]="{ fontSize: '1.4em', fontWeight: '400', color: '#3D3B40' }"
+    >
       A certified dog trainer. I offer positive reinforcement training for dogs
       of all ages and levels, from puppy classes to agility courses. I also
       coach you, the owner, on how to communicate and bond with your dog. The
@@ -60,22 +62,23 @@
   </div>
   <div [ngStyle]="{ display: 'flex' }">
     <img
-      [ngStyle]="{ width: '60%', height: 'auto' }"
+      [ngStyle]="{ width: '50%', height: 'auto', transform: 'rotate(2deg)' }"
       src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     />
     <div
       [ngStyle]="{
         width: '50%',
-        marginLeft: '2rem',
+        marginLeft: '4rem',
         display: 'flex',
         flexDirection: 'column'
       }"
     >
       <span
         [ngStyle]="{
-        fontSize: '1.3em',
-        fontWeight: '400',
-      }"
+          fontSize: '1.3em',
+          fontWeight: '400',
+          color: '#3D3B40'
+        }"
       >
         At <strong>Furs Things First</strong> Dog Training, our unwavering
         vision is to foster a world where every canine companion is not only
@@ -96,12 +99,11 @@
       >
     </div>
   </div>
-  <mat-divider [ngStyle]="{ marginTop: '2rem' }"></mat-divider>
-  <div [ngStyle]="{ display: 'flex', marginTop: '2rem' }">
+  <div [ngStyle]="{ display: 'flex', marginTop: '4rem' }">
     <div
       [ngStyle]="{
         width: '60%',
-        marginRight: '2rem',
+        marginRight: '4rem',
         display: 'flex',
         flexDirection: 'column'
       }"
@@ -110,6 +112,7 @@
         [ngStyle]="{
           fontSize: '1.3em',
           fontWeight: '400',
+          color: '#3D3B40'
         }"
       >
         Our vision sees a future where dog behavior problems are minimized and
@@ -120,7 +123,8 @@
         [ngStyle]="{
           fontSize: '1.3em',
           fontWeight: '400',
-          marginTop: '1rem'
+          marginTop: '1rem',
+          color: '#3D3B40'
         }"
         >In this utopian canine landscape, every dog—regardless of breed, size,
         or background—has the opportunity to flourish and reach its full
@@ -132,13 +136,13 @@
       >
     </div>
     <img
-      [ngStyle]="{ width: '40%', height: 'auto' }"
+      [ngStyle]="{ width: '50%', height: 'auto', transform: 'rotate(-2deg)' }"
       src="https://images.pexels.com/photos/686094/pexels-photo-686094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     />
   </div>
   <mat-divider [ngStyle]="{ marginTop: '7rem' }"></mat-divider>
   <div [ngStyle]="{ marginTop: '7rem', width: '100%', textAlign: 'center' }">
-    <span [ngStyle]="{ fontSize: '1.2em', fontWeight: '500' }"
+    <span [ngStyle]="{ fontSize: '1.2em', fontWeight: '500', color: '#3D3B40' }"
       >COPYRIGHT © 2024 FURS THINGS FIRST DOG TRAINING - ALL RIGHTS
       RESERVED</span
     >
@@ -153,13 +157,13 @@
   >
     <button
       mat-flat-button
-      [ngStyle]="{ fontSize: '1.4em', fontWeight: '500' }"
+      [ngStyle]="{ fontSize: '1.4em', fontWeight: '500', color: '#6DA4AA' }"
     >
       About us</button
     ><a
       href="mailto:email@example.com?subject=Mail from our Website"
       mat-flat-button
-      [ngStyle]="{ fontSize: '1.4em', fontWeight: '500' }"
+      [ngStyle]="{ fontSize: '1.4em', fontWeight: '500', color: '#6DA4AA' }"
     >
       Contact
     </a>
