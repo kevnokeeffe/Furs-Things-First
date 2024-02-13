@@ -18,7 +18,7 @@ export class AppComponent {
       {
         name: 'keywords',
         content:
-          'dog, training, waterford, ireland, furs things first, obedience, agility, behavior, puppy, clicker, positive, reinforcement, socialization, crate, leash, manners, tricks, fun, games',
+          'dog, pet, top, classes, trainer, training, waterford, city, south east, ireland, furs things first, obedience, agility, behavior, puppy, clicker, positive, reinforcement, socialization, crate, leash, manners, obedience, tricks, fun, games',
       },
       { name: 'author', content: 'Furs Things First' },
       { rel: 'canonical', href: 'https://fursthingsfirst.ie' },
