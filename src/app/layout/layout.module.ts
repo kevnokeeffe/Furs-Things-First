@@ -4,10 +4,9 @@ import { LayoutComponent } from './layout/layout.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { AngularMaterialModule } from '../angular-material/angular-material.module';
-import { GetInTouchDialogComponent } from './dialogs/get-in-touch-dialog/get-in-touch-dialog.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
-  declarations: [LayoutComponent, ToolbarComponent, GetInTouchDialogComponent],
+  declarations: [LayoutComponent, ToolbarComponent],
   imports: [
     CommonModule,
     AppRoutingModule,

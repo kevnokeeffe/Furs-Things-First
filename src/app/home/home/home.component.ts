@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
-import { GetInTouchDialogComponent } from '../../layout/dialogs/get-in-touch-dialog/get-in-touch-dialog.component';
 
 @Component({
   selector: 'app-home',
@@ -9,11 +8,4 @@ import { GetInTouchDialogComponent } from '../../layout/dialogs/get-in-touch-dia
 })
 export class HomeComponent {
   constructor(private _bottomSheet: MatBottomSheet) {}
-  title: string = 'Adams Puppies';
-
-  openBottomSheet(): void {
-    this._bottomSheet.open(GetInTouchDialogComponent, {
-      data: { title: 'Get in touch' },
-    });
-  }
 }
