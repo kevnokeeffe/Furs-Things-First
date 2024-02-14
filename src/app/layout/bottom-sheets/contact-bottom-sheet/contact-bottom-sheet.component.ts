@@ -18,7 +18,6 @@ export class ContactBottomSheetComponent {
   }
 
   public openPhone(): void {
-    window.location.href = 'tel:1234567890';
     window.open('tel:1234567890', '_system');
   }
 
