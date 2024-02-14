@@ -175,12 +175,12 @@ height: '50px',
       [ngStyle]="{ fontSize: '1.4em', fontWeight: '500', color: '#6DA4AA' }"
     >
       About us</button
-    ><a
-      href="mailto:email@example.com?subject=Mail from our Website"
+    ><button
+      (click)="openBottomSheet()"
       mat-flat-button
       [ngStyle]="{ fontSize: '1.4em', fontWeight: '500', color: '#6DA4AA' }"
     >
       Contact
-    </a>
+    </button>
   </div>
 </div>

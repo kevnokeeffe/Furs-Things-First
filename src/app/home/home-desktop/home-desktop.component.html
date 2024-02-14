@@ -44,8 +44,8 @@
   <div
     [ngStyle]="{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }"
   >
-    <a
-      href="mailto:email@example.com?subject=Mail from our Website"
+    <button
+      (click)="openBottomSheet()"
       mat-flat-button
       [ngStyle]="{
         color: 'white',
@@ -57,7 +57,7 @@
       <span [ngStyle]="{ fontSize: '1.2em', textTransform: 'uppercase' }"
         >Schedule dog training</span
       >
-    </a>
+    </button>
   </div>
   <mat-divider [ngStyle]="{ marginTop: '7rem' }"></mat-divider>
   <div
@@ -300,8 +300,8 @@
   <div
     [ngStyle]="{ display: 'flex', justifyContent: 'center', marginTop: '3rem' }"
   >
-    <a
-      href="mailto:email@example.com?subject=Mail from our Website"
+    <button
+      (click)="openBottomSheet()"
       mat-flat-button
       [ngStyle]="{
         color: 'white',
@@ -313,7 +313,7 @@
       <span [ngStyle]="{ fontSize: '1.2em', textTransform: 'uppercase' }"
         >Schedule dog training</span
       >
-    </a>
+    </button>
   </div>
   <mat-divider [ngStyle]="{ marginTop: '7rem' }"></mat-divider>
   <div [ngStyle]="{ marginTop: '7rem', width: '100%', textAlign: 'center' }">
@@ -352,12 +352,12 @@ marginTop: '2rem',
       routerLink="/about"
     >
       About us</button
-    ><a
-      href="mailto:email@example.com?subject=Mail from our Website"
+    ><button
+      (click)="openBottomSheet()"
       mat-flat-button
       [ngStyle]="{ fontSize: '1.4em', fontWeight: '500', color: '#6DA4AA' }"
     >
       Contact
-    </a>
+    </button>
   </div>
 </div>

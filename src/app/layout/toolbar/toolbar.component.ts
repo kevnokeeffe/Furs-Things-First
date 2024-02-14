@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
-import { GetInTouchDialogComponent } from '../dialogs/get-in-touch-dialog/get-in-touch-dialog.component';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { ContactBottomSheetComponent } from '../bottom-sheets/contact-bottom-sheet/contact-bottom-sheet.component';
 
 @Component({
   selector: 'app-toolbar',
@@ -14,7 +14,7 @@ export class ToolbarComponent {
   constructor(private _bottomSheet: MatBottomSheet) {}
 
   openBottomSheet(): void {
-    this._bottomSheet.open(GetInTouchDialogComponent, {
+    this._bottomSheet.open(ContactBottomSheetComponent, {
       data: { title: 'Hire me' },
     });
   }

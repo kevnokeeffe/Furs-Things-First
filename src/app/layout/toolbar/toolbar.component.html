@@ -66,13 +66,10 @@
     >
     <span [ngStyle]="{ color: '#3D3B40' }">About us</span>
   </button>
-  <a
-    mat-menu-item
-    href="mailto:email@example.com?subject=Mail from our Website"
-  >
+  <button mat-menu-item (click)="openBottomSheet()">
     <mat-icon [ngStyle]="{ color: '#6DA4AA' }" class="material-symbols-outlined"
       >mail</mat-icon
     >
     <span [ngStyle]="{ color: '#3D3B40' }">Contact</span>
-  </a>
+  </button>
 </mat-menu>

@@ -8,8 +8,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatListModule } from '@angular/material/list';
 @NgModule({
-  declarations: [],
   imports: [
     CommonModule,
     MatButtonModule,
@@ -20,6 +20,7 @@ import { MatDividerModule } from '@angular/material/divider';
     MatInputModule,
     MatMenuModule,
     MatDividerModule,
+    MatListModule,
   ],
   exports: [
     MatButtonModule,
@@ -30,6 +31,7 @@ import { MatDividerModule } from '@angular/material/divider';
     MatInputModule,
     MatMenuModule,
     MatDividerModule,
+    MatListModule,
   ],
 })
 export class AngularMaterialModule {}
