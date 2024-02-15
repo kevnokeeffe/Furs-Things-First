@@ -10,8 +10,6 @@ import { ContactBottomSheetComponent } from '../../layout/bottom-sheets/contact-
 export class HomeDesktopComponent {
   constructor(private _bottomSheet: MatBottomSheet) {}
   openBottomSheet(): void {
-    this._bottomSheet.open(ContactBottomSheetComponent, {
-      data: { title: 'Hire me' },
-    });
+    this._bottomSheet.open(ContactBottomSheetComponent);
   }
 }

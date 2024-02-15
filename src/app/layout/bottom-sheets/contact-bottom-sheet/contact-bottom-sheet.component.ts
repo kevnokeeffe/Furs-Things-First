@@ -8,13 +8,12 @@ import { MatBottomSheetRef } from '@angular/material/bottom-sheet';
 })
 export class ContactBottomSheetComponent {
   constructor(
-    //@Inject(MAT_BOTTOM_SHEET_DATA) public data: {names: string[]}
     private _bottomSheetRef: MatBottomSheetRef<ContactBottomSheetComponent>
   ) {}
 
   public openMail(): void {
     window.location.href =
-      'mailto:example@email.com?subject=Mail from our Website';
+      'mailto:contact@fursthingsfirst.ie?subject=Furs Things First Dog Training?body=Hi Adam,';
   }
 
   public openPhone(): void {
