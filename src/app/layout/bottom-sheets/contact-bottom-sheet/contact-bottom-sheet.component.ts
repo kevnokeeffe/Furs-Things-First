@@ -18,7 +18,7 @@ export class ContactBottomSheetComponent {
   }
 
   public openPhone(): void {
-    window.open('tel:1234567890', '_system');
+    window.open('tel:+353 85 137 4535', '_system');
   }
 
   public closeBottomSheet(): void {

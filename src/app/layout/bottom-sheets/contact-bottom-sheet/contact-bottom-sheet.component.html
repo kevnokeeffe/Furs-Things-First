@@ -26,16 +26,26 @@
       >Furs Things First</span
     >
   </div>
-
+  <div [ngStyle]="{ maxWidth: '600px', padding: '1rem', marginBottom: '1rem' }">
+    <span
+      >At Furs Things First, we offer positive, fun, and effective dog training
+      for all breeds and ages. Whether you need group classes, private sessions,
+      home visits, or online consultations, we can help you and your dog.
+      Contact us today by phone or email. We can't wait to meet you and your
+      furry friend!</span
+    >
+  </div>
+  <mat-divider></mat-divider>
+  <div mat-subheader>Contact us</div>
   <mat-list-item (click)="openMail()"
     ><mat-icon matListItemIcon>email</mat-icon>
-    <span matListItemTitle>Contact via email address</span>
+    <span matListItemTitle>Email</span>
     <span matLine>example&#64;email.com</span>
   </mat-list-item>
   <mat-list-item (click)="openPhone()"
-    ><mat-icon matListItemIcon>phone</mat-icon>
-    <span matListItemTitle>Contact via phone number</span>
-    <span matLine>1234567890</span>
+    ><mat-icon matListItemIcon>smartphone</mat-icon>
+    <span matListItemTitle>Mobile</span>
+    <span matLine>+353 85 137 4535</span>
   </mat-list-item>
 </mat-nav-list>
 <mat-divider></mat-divider>
