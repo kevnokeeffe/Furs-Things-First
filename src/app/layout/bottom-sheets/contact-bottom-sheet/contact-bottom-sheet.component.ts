@@ -20,10 +20,8 @@ export class ContactBottomSheetComponent {
 
   public openPhone(): void {
     const deviceInfo = this.deviceService.getDeviceInfo();
-
     // Check if the device is mobile using the device type property
-    const isMobile = deviceInfo.deviceType === 'smart-phone';
-
+    const isMobile = deviceInfo.deviceType === 'mobile';
     // If the device is mobile, open the tel link using window.open with _system parameter
     if (isMobile) {
       window.open(`tel:${this.phoneNumber}`, '_system');
