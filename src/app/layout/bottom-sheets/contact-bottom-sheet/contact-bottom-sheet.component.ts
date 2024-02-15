@@ -13,7 +13,7 @@ export class ContactBottomSheetComponent {
 
   public openMail(): void {
     window.location.href =
-      'mailto:contact@fursthingsfirst.ie?subject=Furs Things First Dog Training?body=Hi Adam,';
+      'mailto:contact@fursthingsfirst.ie?subject=Furs Things First Dog Training&body=Hi Adam,';
   }
 
   public openPhone(): void {
