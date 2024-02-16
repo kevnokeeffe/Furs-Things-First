@@ -55,19 +55,28 @@
 </mat-toolbar>
 <mat-menu #menu="matMenu">
   <button mat-menu-item routerLink="/furry-friends">
-    <mat-icon [ngStyle]="{ color: '#6DA4AA' }" class="material-symbols-outlined"
+    <mat-icon
+      aria-label="Go to home page"
+      [ngStyle]="{ color: '#6DA4AA' }"
+      class="material-symbols-outlined"
       >home_app_logo</mat-icon
     >
     <span [ngStyle]="{ color: '#3D3B40' }">Home</span>
   </button>
   <button mat-menu-item routerLink="/about">
-    <mat-icon [ngStyle]="{ color: '#6DA4AA' }" class="material-symbols-outlined"
+    <mat-icon
+      aria-label="Go to about page"
+      [ngStyle]="{ color: '#6DA4AA' }"
+      class="material-symbols-outlined"
       >info_i</mat-icon
     >
     <span [ngStyle]="{ color: '#3D3B40' }">About us</span>
   </button>
   <button mat-menu-item (click)="openBottomSheet()">
-    <mat-icon [ngStyle]="{ color: '#6DA4AA' }" class="material-symbols-outlined"
+    <mat-icon
+      aria-label="Go to contact page"
+      [ngStyle]="{ color: '#6DA4AA' }"
+      class="material-symbols-outlined"
       >mail</mat-icon
     >
     <span [ngStyle]="{ color: '#3D3B40' }">Contact</span>
