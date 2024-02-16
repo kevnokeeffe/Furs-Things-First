@@ -2,4 +2,45 @@
   display: flex;
   flex-direction: column;
   padding-top: 4rem;
+  .title {
+    @media only screen and (max-width: 1200px) {
+      font-size: 2.8em;
+    }
+    @media only screen and (min-width: 1200px) {
+      font-size: 6em;
+    }
+    // @media only screen and (min-width: 500px) and (max-width: 800px) {
+    //   margin-top: 20rem;
+    // }
+  }
+}
+.txt_container {
+  text-align: center;
+  @media only screen and (min-width: 500px) and (max-width: 800px) {
+    margin-top: 35%;
+    .txt {
+      font-size: 2.2em;
+    }
+  }
+  @media only screen and (min-width: 800px) and (max-width: 1200px) {
+    margin-top: 35%;
+    font-size: 3em;
+  }
+  @media only screen and (min-width: 1200px) {
+    margin-top: 35%;
+    font-size: 3em;
+  }
+}
+.txt_container_2 {
+  @media only screen and (min-width: 500px) and (max-width: 800px) {
+    .txt_2 {
+      font-size: 2.2em;
+    }
+  }
+  @media only screen and (min-width: 800px) and (max-width: 1200px) {
+    font-size: 2em;
+  }
+  @media only screen and (min-width: 1200px) {
+    font-size: 3em;
+  }
 }

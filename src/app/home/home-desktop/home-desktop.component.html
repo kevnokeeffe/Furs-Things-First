@@ -12,29 +12,28 @@
     }"
   >
     <span
+      class="title"
       [ngStyle]="{
-        fontSize: '6em',
         color: 'white',
-
         fontWeight: '700'
       }"
       >FUN AND ACCOUNTABLE</span
     >
     <span
+      class="title"
       [ngStyle]="{
         textAlign: 'center',
-        fontSize: '6em',
         color: 'white',
-        marginTop: '5rem',
+        marginTop: '10%',
         fontWeight: '700'
       }"
       >EXPERT TRAINING</span
     >
   </div>
-  <div [ngStyle]="{ marginTop: '40%', textAlign: 'center' }">
+  <div class="txt_container">
     <span
+      class="txt"
       [ngStyle]="{
-        fontSize: '3em',
         fontWeight: '500',
         fontFamily: 'Montserrat, sans-serif'
       }"
@@ -42,7 +41,7 @@
     >
   </div>
   <div
-    [ngStyle]="{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }"
+    [ngStyle]="{ display: 'flex', justifyContent: 'center', marginTop: '6%' }"
   >
     <button
       (click)="openBottomSheet()"
@@ -59,10 +58,10 @@
       >
     </button>
   </div>
-  <mat-divider [ngStyle]="{ marginTop: '7rem' }"></mat-divider>
+  <mat-divider [ngStyle]="{ marginTop: '10%' }"></mat-divider>
   <div
     [ngStyle]="{
-      marginTop: '7rem',
+      marginTop: '10%',
       display: 'flex',
       flexDirection: 'column'
     }"
@@ -72,7 +71,7 @@
         textAlign: 'center',
         fontSize: '1.6em',
         fontWeight: '500',
-        marginBottom: '4rem'
+        marginBottom: '5%'
       }"
       >Services</span
     >
@@ -286,11 +285,14 @@
       </div>
     </div>
   </div>
-  <mat-divider [ngStyle]="{ marginTop: '7rem' }"></mat-divider>
-  <div [ngStyle]="{ marginTop: '7rem', textAlign: 'center' }">
+  <mat-divider [ngStyle]="{ marginTop: '10%' }"></mat-divider>
+  <div
+    class="txt_container_2"
+    [ngStyle]="{ marginTop: '10%', textAlign: 'center' }"
+  >
     <span
+      class="txt_2"
       [ngStyle]="{
-        fontSize: '3em',
         fontWeight: '500',
         fontFamily: 'Montserrat, sans-serif'
       }"
@@ -315,8 +317,8 @@
       >
     </button>
   </div>
-  <mat-divider [ngStyle]="{ marginTop: '7rem' }"></mat-divider>
-  <div [ngStyle]="{ marginTop: '7rem', width: '100%', textAlign: 'center' }">
+  <mat-divider [ngStyle]="{ marginTop: '10%' }"></mat-divider>
+  <div [ngStyle]="{ marginTop: '10%', width: '100%', textAlign: 'center' }">
     <span [ngStyle]="{ fontSize: '1.2em', fontWeight: '500', color: '#3D3B40' }"
       >COPYRIGHT © 2024 FURS THINGS FIRST DOG TRAINING - ALL RIGHTS
       RESERVED</span

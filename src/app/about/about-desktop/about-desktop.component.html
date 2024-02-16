@@ -59,19 +59,17 @@
       Vision
     </div>
   </div>
-  <div [ngStyle]="{ display: 'flex' }">
+  <div class="txt_container">
     <img
-      [ngStyle]="{ width: '50%', height: 'auto', transform: 'rotate(1deg)' }"
+      class="img top"
+      [ngStyle]="{
+        height: 'min-content',
+        transform: 'rotate(1deg)',
+        marginBottom: '5%'
+      }"
       src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     />
-    <div
-      [ngStyle]="{
-        width: '50%',
-        marginLeft: '4rem',
-        display: 'flex',
-        flexDirection: 'column'
-      }"
-    >
+    <div class="txt top">
       <span
         [ngStyle]="{
           fontSize: '1.4em',
@@ -98,15 +96,9 @@
       >
     </div>
   </div>
-  <div [ngStyle]="{ display: 'flex', marginTop: '4rem' }">
-    <div
-      [ngStyle]="{
-        width: '60%',
-        marginRight: '4rem',
-        display: 'flex',
-        flexDirection: 'column'
-      }"
-    >
+  <mat-divider [ngStyle]="{ marginTop: '5%' }"></mat-divider>
+  <div class="txt_container" [ngStyle]="{ marginTop: '5%' }">
+    <div class="txt bottom">
       <span
         [ngStyle]="{
           fontSize: '1.4em',
@@ -122,7 +114,7 @@
         [ngStyle]="{
           fontSize: '1.4em',
           fontWeight: '400',
-          marginTop: '1rem',
+          marginTop: '4%',
           color: '#3D3B40'
         }"
         >In this utopian canine landscape, every dog—regardless of breed, size,
@@ -135,7 +127,11 @@
       >
     </div>
     <img
-      [ngStyle]="{ width: '50%', height: 'auto', transform: 'rotate(-1deg)' }"
+      class="img bottom"
+      [ngStyle]="{
+        height: 'min-content',
+        transform: 'rotate(-1deg)',
+      }"
       src="https://images.pexels.com/photos/686094/pexels-photo-686094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     />
   </div>
