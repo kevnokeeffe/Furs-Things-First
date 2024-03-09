@@ -1,4 +1,8 @@
 <ng-container>
-  <div class="desktop"><app-home-desktop></app-home-desktop></div>
-  <div class="mobile"><app-home-mobile></app-home-mobile></div>
+  <div class="desktop" *ngIf="isDesktop">
+    <app-home-desktop></app-home-desktop>
+  </div>
+  <div class="mobile" *ngIf="!isDesktop">
+    <app-home-mobile></app-home-mobile>
+  </div>
 </ng-container>

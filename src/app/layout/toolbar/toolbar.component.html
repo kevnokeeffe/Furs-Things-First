@@ -11,8 +11,11 @@
     mat-icon-button
     class="example-icon"
     aria-label="Example icon-button with menu icon"
+    #menuTrigger="matMenuTrigger"
+    #t="matMenuTrigger"
   >
-    <mat-icon>menu</mat-icon>
+    <mat-icon *ngIf="!t.menuOpen">menu</mat-icon>
+    <mat-icon *ngIf="t.menuOpen">menu_open</mat-icon>
   </button>
   <img
     [ngStyle]="{
