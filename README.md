@@ -22,6 +22,10 @@ To get started with Furs Things First, simply visit [FursThingsFirst.ie](https:/
 
 We welcome any feedback or suggestions for improving Furs Things First. If you encounter any issues or have questions about the platform, please don't hesitate to reach out to our support team.
 
+## Testing
+
+We ensure the quality and reliability of our codebase through comprehensive testing.
+
 ## Contributing
 
 We encourage contributions from the community to help make Furs Things First even better. If you're interested in contributing, please check out our GitHub repository for more information on how to get involved.
