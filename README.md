@@ -1,6 +1,6 @@
 # Furs Things First
 
-Furs Things First is a comprehensive dog training website built with Angular and AngularFire. This platform aims to provide dog owners with the necessary guidance to foster a healthy relationship with their canine companions through positive reinforcement training techniques.
+Furs Things First is a dog training website built with Angular and AngularFire. This platform aims to provide dog owners with the necessary guidance to foster a healthy relationship with their canine companions through positive reinforcement training techniques.
 
 ## Features
 
@@ -13,6 +13,10 @@ Furs Things First is a comprehensive dog training website built with Angular and
 - **Angular**: The website is built using the Angular framework [Angular CLI](https://github.com/angular/angular-cli) version 17.1.3, which provides a robust and scalable foundation for creating dynamic web applications.
 - **AngularFire**: AngularFire is used for integrating Angular applications with Firebase, enabling real-time data synchronization and seamless authentication.
 - **Firebase**: Firebase serves as the backend infrastructure for the website, providing features such as database storage, user authentication, and hosting.
+
+## Getting Started
+
+To get started with Furs Things First, simply visit [FursThingsFirst.ie](https://www.fursthingsfirst.ie) or [Furs Things First Web App](https://furs-things-first.web.app/).
 
 ## Feedback and Support
 
