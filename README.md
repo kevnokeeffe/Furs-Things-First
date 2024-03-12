@@ -32,6 +32,6 @@ Furs Things First was created by a team of passionate dog lovers dedicated to pr
 
 ## Contact Us
 
-If you have any questions or inquiries, you can reach us via email at contact@fursthingsfirst.com or through our website's contact form.
+If you have any questions or inquiries, you can reach us via email at contact@fursthingsfirst.ie or through our website's contact form.
 
 Thank you for choosing Furs Things First for your dog training needs!
