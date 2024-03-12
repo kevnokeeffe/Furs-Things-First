@@ -1,6 +1,6 @@
 # Furs Things First
 
-Furs Things First is a comprehensive dog training website built with Angular and AngularFire. This platform aims to provide dog owners with the necessary tools, resources, and guidance to foster a healthy relationship with their canine companions through positive reinforcement training techniques.
+Furs Things First is a comprehensive dog training website built with Angular and AngularFire. This platform aims to provide dog owners with the necessary guidance to foster a healthy relationship with their canine companions through positive reinforcement training techniques.
 
 ## Features
 
