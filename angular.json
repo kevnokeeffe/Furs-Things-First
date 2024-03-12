@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "adams-puppies": {
+    "furs-things-first": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/adams-puppies",
+            "outputPath": "dist/furs-things-first",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -70,10 +70,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "adams-puppies:build:production"
+              "buildTarget": "furs-things-first:build:production"
             },
             "development": {
-              "buildTarget": "adams-puppies:build:development"
+              "buildTarget": "furs-things-first:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "adams-puppies:build"
+            "buildTarget": "furs-things-first:build"
           }
         },
         "test": {
@@ -111,12 +111,12 @@
           },
           "configurations": {
             "production": {
-              "buildTarget": "adams-puppies:build:production",
-              "serveTarget": "adams-puppies:serve:production"
+              "buildTarget": "furs-things-first:build:production",
+              "serveTarget": "furs-things-first:serve:production"
             },
             "development": {
-              "buildTarget": "adams-puppies:build:development",
-              "serveTarget": "adams-puppies:serve:development"
+              "buildTarget": "furs-things-first:build:development",
+              "serveTarget": "furs-things-first:serve:development"
             }
           },
           "defaultConfiguration": "production"
