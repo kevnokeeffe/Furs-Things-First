@@ -13,7 +13,7 @@ Furs Things First is a dog training website built with Angular, Angular Material
 - **Angular**: The website is built using the [Angular](https://github.com/angular/angular-cli) framework version 17.1.3, which provides a robust and scalable foundation for creating dynamic web applications.
 - **Angular Material**: [Angular Material](https://material.angular.io/) version 17.1.2, is used as the component library for building consistent and responsive user interfaces, providing a wide range of UI components and utilities.
 - **AngularFire**: [Angular Fire](https://firebaseopensource.com/projects/angular/angularfire2) version 17.1.1, is used for integrating Angular applications with Firebase, enabling real-time data synchronization and seamless authentication.
-- **Firebase**: [Firebase](https://firebase.google.com/) serves as the backend infrastructure for the website, providing features such as database storage, user authentication, and hosting.
+- **Firebase**: [Firebase](https://firebase.google.com/) version 13.4.1, serves as the backend infrastructure for the website, providing the hosting feature.
 
 ## Getting Started
 
