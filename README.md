@@ -17,7 +17,7 @@ Furs Things First is a dog training website built with Angular and AngularFire. 
 
 ## Getting Started
 
-To get started with Furs Things First, simply visit [FursThingsFirst.ie](https://www.fursthingsfirst.ie) or [Furs Things First Web App](https://furs-things-first.web.app/).
+To get started with Furs Things First, simply visit [Furs Things First](https://furs-things-first.web.app/).
 
 ## Feedback and Support
 
