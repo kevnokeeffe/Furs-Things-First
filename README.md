@@ -1,6 +1,6 @@
 # Furs Things First
 
-Furs Things First is a dog training website built with Angular and AngularFire. This platform aims to provide dog owners with the necessary guidance to foster a healthy relationship with their canine companions through positive reinforcement training techniques.
+Furs Things First is a dog training website built with Angular, Angular Material and AngularFire. This platform aims to provide dog owners with the necessary guidance to foster a healthy relationship with their canine companions through positive reinforcement training techniques.
 
 ## Features
 
@@ -11,9 +11,9 @@ Furs Things First is a dog training website built with Angular and AngularFire. 
 ## Technologies Used
 
 - **Angular**: The website is built using the Angular framework [Angular CLI](https://github.com/angular/angular-cli) version 17.1.3, which provides a robust and scalable foundation for creating dynamic web applications.
-- **Angular Material**: Angular Material is used as the component library for building consistent and responsive user interfaces, providing a wide range of UI components and utilities.
-- **AngularFire**: AngularFire is used for integrating Angular applications with Firebase, enabling real-time data synchronization and seamless authentication.
-- **Firebase**: Firebase serves as the backend infrastructure for the website, providing features such as database storage, user authentication, and hosting.
+- **Angular Material**: [Angular Material](https://material.angular.io/) version 17.1.2, is used as the component library for building consistent and responsive user interfaces, providing a wide range of UI components and utilities.
+- **AngularFire**: [Angular Fire](https://firebaseopensource.com/projects/angular/angularfire2) version 17.1.1, is used for integrating Angular applications with Firebase, enabling real-time data synchronization and seamless authentication.
+- **Firebase**: [Firebase](https://firebase.google.com/) serves as the backend infrastructure for the website, providing features such as database storage, user authentication, and hosting.
 
 ## Getting Started
 
